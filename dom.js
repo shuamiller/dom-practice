@@ -5,6 +5,12 @@ const pinkDiv = container.createElement('div');
 const firstHeading = pinkDiv.createElement('h1');
 const regParagraph = pinkDiv.createElement('p');
 
+container.appendChild(redParagraph);
+container.appendChild(thirdHeading);
+container.appendChild(pinkDiv);
+pinkDiv.appendChild(firstHeading);
+pinkDiv.appendChild(regParagraph);
+
 redParagraph.textContent = "Hey I'm red!";
 redParagraph.style.color = "red";
 thirdHeading.textContent = "I'm a blue h2!";
